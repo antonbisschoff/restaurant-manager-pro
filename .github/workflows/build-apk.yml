@@ -18,6 +18,7 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
+          flutter-version: "3.24.5"
           channel: stable
 
       - run: flutter create . --platforms=android --org za.co.tradeon --project-name restaurant_manager_pro
@@ -27,7 +28,7 @@ jobs:
 
       - run: flutter pub get
 
-      - run: flutter build apk --release --enable-experiment=dot-shorthands
+      - run: flutter build apk --release
 
       - uses: actions/upload-artifact@v4
         with:
