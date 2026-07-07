@@ -1,0 +1,31 @@
+name: restaurant_manager_pro
+description: Restaurant Manager Pro - labor & food cost, scheduling, checklists, KPIs, profit and AI coaching.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+  fl_chart: ^0.68.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#152238"
+  adaptive_icon_foreground: "assets/icon/icon_fg.png"
