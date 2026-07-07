@@ -19,11 +19,11 @@ class _ChecklistsScreenState extends State<ChecklistsScreen>
       'Check deliveries against orders',
       'Prep stations stocked and ready',
       'Front of house clean and set up',
-    ],
+    ], 
     'Shift change': [
       'Cash count handover completed',
       'Outstanding orders briefed to next shift',
-      'Stock levels and 86'd items communicated',
+        "Stock levels and sold-out items communicated",
       'Cleaning tasks up to date',
       'Any incidents or complaints logged',
     ],
